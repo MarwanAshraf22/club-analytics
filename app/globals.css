@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0B1220;       /* deep navy */
+  --card: #0F1829;     /* slightly lighter for cards */
+  --muted: #A7B3C7;    /* muted blue-grey */
+  --text: #F3F6FA;     /* off-white */
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-[var(--bg)] text-[var(--text)];
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply bg-[var(--card)] rounded-2xl shadow-soft border border-white/5;
+}
+.btn {
+  @apply inline-flex items-center gap-2 rounded-full px-4 py-2 font-medium transition hover:opacity-90;
+}
+.btn-primary { @apply bg-primary text-white; }
+.btn-ghost { @apply bg-white/5 text-white; }
+.badge { @apply rounded-full px-3 py-1 text-xs font-semibold bg-white/10 text-white; }
+.input {
+  @apply w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-accent/60;
+}
+.select {
+  @apply w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-accent/60;
+}
+.table {
+  @apply w-full text-sm;
+}
+.table th, .table td { @apply px-4 py-3 text-left; }
+.table thead { @apply text-white/70; }
+.table tbody tr { @apply border-t border-white/10; }
+.hero-gradient {
+  background: radial-gradient(1000px 600px at 15% -10%, rgba(10,115,183,0.35), transparent),
+              radial-gradient(900px 500px at 85% -20%, rgba(245,197,66,0.18), transparent);
+}

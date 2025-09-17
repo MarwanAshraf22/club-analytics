@@ -1,0 +1,143 @@
+[
+{
+  "id": "mohammed-youssef",
+  "name": "Mohammed Youssef Mohammad Othman",
+  "sport": "Wheelchair Racing (T34) — 100m & 800m",
+  "age": 21,
+  "country": "UAE",
+  "club": "Dubai Club for People of Determination",
+  "image": "/images/mohammed-youssef.jpg",
+
+  "metrics": { "speed": 90, "strength": 74, "endurance": 86, "technique": 85, "consistency": 82 },
+
+  "personal": {
+    "dob": "2004-01-16",
+    "class": "T34",
+    "disability": "Cerebral palsy / Spastic Diplegic (walking with spastic gait)",
+    "marital_status": "Single",
+    "education": "High school graduate"
+  },
+
+  "training": {
+    "years": 10,
+    "weekly_frequency": "5 days / week",
+    "avg_session": "≈ 2 hours"
+  },
+
+  "support": "Great support from family and friends",
+
+  "goals": [
+    "Medal at Los Angeles 2028",
+    "Improve personal bests and world ranking"
+  ],
+
+  "expectations": [
+    { "event": "100m", "note": "Top three" },
+    { "event": "800m", "note": "Top three" }
+  ],
+
+  "key_stats": [
+    { "label": "100m Personal Best", "value": "14.84 s (Switzerland, 2025-05-24)" },
+    { "label": "800m Personal Best", "value": "1:36.70 (Switzerland, 2025-05-31/06-01)" }
+  ],
+
+  "records_reference": {
+    "100m": { "world_record": "14.56 s", "regional_record": "14.84 s" },
+    "800m": { "world_record": "1:39.72", "regional_record": "1:40.45" },
+    "best_recent": {
+      "100m": "14.84 s (Switzerland, 2025-05-24)",
+      "800m": "1:40.46 (Sharjah, 2025-02-02)"
+    }
+  },
+
+  "competitions_100m": [
+    { "name": "Sharjah International meeting", "date": "2025-02-02/2025-02-04", "target": "0:15.40", "achieved": "0:15.21", "rank": "1st", "goal": "Achieve one of three medals", "status": "Achievable" },
+    { "name": "Fazza Grand Prix", "date": "2025-02-06/2025-02-13", "target": "0:15.20", "achieved": "0:15.61", "rank": "1st", "goal": "Achieve one of three medals", "status": "Achievable" },
+    { "name": "Grand Prix Switzerland", "date": "2025-05-22/2025-05-30", "target": "0:15.20", "achieved": "0:14.84", "rank": "3rd", "goal": "Achieve one of three medals", "status": "Achievable" },
+    { "name": "Daniel Championship Switzerland", "date": "2025-05-30", "target": "0:15.15", "achieved": "0:15.18", "rank": "2nd", "goal": "Achieve one of three medals", "status": "Achievable" },
+    { "name": "Swiss National Open", "date": "2025-05-31/2025-06-01", "target": "0:15.00", "achieved": "0:14.94", "rank": "2nd", "goal": "Achieve one of three medals", "status": "Achievable" },
+    { "name": "Polish International Championship", "date": "2025-08-05/2025-09-15", "target": "0:15.00–0:14.60", "goal": "Prepare for World Championship", "status": "Achievable" },
+    { "name": "World Championship", "date": "2025-09-23/2025-10-06", "target": "0:15.00–0:14.60", "goal": "Get one of three medals", "status": "Achievable" }
+  ],
+
+  "competitions_800m": [
+    { "name": "Sharjah International meeting", "date": "2025-02-02/2025-02-04", "target": "1:45.00", "achieved": "1:40.46", "rank": "2nd", "goal": "Achieve MS for Worlds", "status": "Achievable" },
+    { "name": "Fazza Grand Prix", "date": "2025-02-06/2025-02-13", "target": "1:44.00", "achieved": "1:42.33", "rank": "3rd", "goal": "Gain experience", "status": "Achievable" },
+    { "name": "Grand Prix Switzerland", "date": "2025-05-22/2025-05-30", "target": "1:42.00", "achieved": "1:42:08", "rank": "3rd", "goal": "Improve world ranking", "status": "Achievable" },
+    { "name": "Swiss National Open", "date": "2025-05-31/2025-06-01", "target": "1:42.00", "achieved": "1:36.70", "rank": "3rd", "goal": "Improve world ranking", "status": "Achievable" },
+    { "name": "Polish International Championship", "date": "2025-08-05/2025-09-15", "target": "1:36:00–1:36:50", "goal": "Improve world ranking", "status": "Achievable" },
+    { "name": "World Championship", "date": "2025-09-23/2025-10-06", "target": "1:36:00–1:36:50", "goal": "Improve world ranking", "status": "Achievable" }
+  ],
+
+  "camps": [
+    { "name": "International training camp", "place": "Tunisia", "period": "2024-11-30/2025-01-10", "days": 41 },
+    { "name": "Local training camp", "place": "Dubai", "period": "2025-01-11/2025-02-01", "days": 21 },
+    { "name": "Sharjah International meeting", "place": "Sharjah", "period": "2025-02-02/2025-02-04", "days": 3 },
+    { "name": "16th Fazza Grand Prix", "place": "Dubai", "period": "2025-02-06/2025-02-13", "days": 7 },
+    { "name": "International training camp", "place": "Tunisia", "period": "2025-02-26/2025-04-03", "days": 36 },
+    { "name": "Shared training with Tunisian team", "place": "Dubai", "period": "2025-04-05/2025-04-24", "days": 20 },
+    { "name": "International training camp / hosting", "place": "Tunisia", "period": "2025-04-24/2025-05-16", "days": 23 }
+  ]
+}
+,
+  {
+    "id": "fatima-al-hosani",
+    "name": "Fatima Al Hosani",
+    "sport": "Para Powerlifting",
+    "age": 27,
+    "country": "UAE",
+    "club": "Dubai Club for People of Determination",
+    "image": "/images/fatima-al-hosani.jpg",
+    "metrics": {
+      "speed": 55,
+      "strength": 92,
+      "endurance": 70,
+      "technique": 83,
+      "consistency": 88
+    },
+    "stats": [
+      {
+        "label": "Bench PB",
+        "value": "85 kg"
+      },
+      {
+        "label": "International Starts",
+        "value": 9
+      },
+      {
+        "label": "Podiums",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "ahmed-samir",
+    "name": "Ahmed Samir",
+    "sport": "Para Badminton",
+    "age": 22,
+    "country": "UAE",
+    "club": "Dubai Club for People of Determination",
+    "image": "/images/ahmed-samir.jpg",
+    "metrics": {
+      "speed": 78,
+      "strength": 68,
+      "endurance": 80,
+      "technique": 81,
+      "consistency": 75
+    },
+    "stats": [
+      {
+        "label": "Matches (YTD)",
+        "value": 28
+      },
+      {
+        "label": "Win Rate",
+        "value": "64%"
+      },
+      {
+        "label": "Titles",
+        "value": 2
+      }
+    ]
+  }
+]
