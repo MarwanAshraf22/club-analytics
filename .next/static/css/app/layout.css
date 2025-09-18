@@ -930,6 +930,10 @@ body {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   --tw-ring-color: rgb(245 197 66 / 0.6);
 }
+.select option {
+  background-color: var(--card);
+  color: var(--text);
+}
 .table {
   width: 100%;
   font-size: 0.875rem;
@@ -943,7 +947,9 @@ body {
   text-align: left;
 }
 .table thead {
-  color: rgb(255 255 255 / 0.7);
+  background-color: rgb(255 255 255 / 0.1);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .table tbody tr {
   border-top-width: 1px;

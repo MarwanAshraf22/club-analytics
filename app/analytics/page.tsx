@@ -15,11 +15,29 @@ export default function AnalyticsPage() {
         <div className="h-80">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={data}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />
-              <YAxis domain={[0,100]} />
-              <Tooltip />
-              <Bar dataKey="speed" />
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+              <XAxis 
+                dataKey="name" 
+                tick={{ fill: "#F3F6FA", fontSize: 12 }}
+              />
+              <YAxis 
+                domain={[0,100]} 
+                tick={{ fill: "#F3F6FA", fontSize: 12 }}
+              />
+              <Tooltip 
+                contentStyle={{ 
+                  backgroundColor: "#0F1829", 
+                  border: "1px solid #374151",
+                  borderRadius: "8px",
+                  color: "#F3F6FA"
+                }}
+              />
+              <Bar 
+                dataKey="speed" 
+                fill="#0A73B7" 
+                stroke="#0A73B7"
+                strokeWidth={1}
+              />
             </BarChart>
           </ResponsiveContainer>
         </div>
@@ -29,11 +47,29 @@ export default function AnalyticsPage() {
         <div className="h-80">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={data}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />
-              <YAxis domain={[0,100]} />
-              <Tooltip />
-              <Bar dataKey="strength" />
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+              <XAxis 
+                dataKey="name" 
+                tick={{ fill: "#F3F6FA", fontSize: 12 }}
+              />
+              <YAxis 
+                domain={[0,100]} 
+                tick={{ fill: "#F3F6FA", fontSize: 12 }}
+              />
+              <Tooltip 
+                contentStyle={{ 
+                  backgroundColor: "#0F1829", 
+                  border: "1px solid #374151",
+                  borderRadius: "8px",
+                  color: "#F3F6FA"
+                }}
+              />
+              <Bar 
+                dataKey="strength" 
+                fill="#F5C542" 
+                stroke="#F5C542"
+                strokeWidth={1}
+              />
             </BarChart>
           </ResponsiveContainer>
         </div>
