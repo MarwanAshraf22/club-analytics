@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Club Analytics",
-  description: "Athlete scouting-style analytics for the club"
+  title: "LA 2028",
+  description: "Athlete scouting-style analytics for LA 2028 Paralympic Games"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -6,20 +6,22 @@ export function Hero() {
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-            Analytics for Dubai Club for People of Determination
+            LA 2028 Paralympic Games Analytics
           </h1>
           <p className="mt-4 text-white/70 text-base md:text-lg">
-            Discover athlete strengths, compare performances, and present clean visuals for coaches and fans.
+            Discover athlete strengths, compare performances, and track progress for the LA 2028 Paralympic Games.
           </p>
           <div className="mt-6 flex gap-3">
             <Link href="/athletes" className="btn btn-primary">Browse Athletes</Link>
             <Link href="/analytics" className="btn btn-ghost">View Analytics</Link>
           </div>
-          <div className="mt-6 flex gap-2">
+          <div className="mt-6 flex flex-wrap gap-2">
             <span className="badge">Para Athletics</span>
-            <span className="badge">Powerlifting</span>
-            <span className="badge">Badminton</span>
-            <span className="badge">More…</span>
+            <span className="badge">Shooting Para Sport</span>
+            <span className="badge">Para Powerlifting</span>
+            <span className="badge">Para Badminton</span>
+            <span className="badge">Para Cycling</span>
+            <span className="badge">Boccia</span>
           </div>
         </div>
         <div className="card p-6">

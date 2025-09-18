@@ -2,7 +2,7 @@
 {
   "id": "mohammed-youssef",
   "name": "Mohammed Youssef Mohammad Othman",
-  "sport": "Wheelchair Racing (T34) — 100m & 800m",
+  "sport": "Para Athletics",
   "age": 21,
   "country": "UAE",
   "club": "Dubai Club for People of Determination",
@@ -138,6 +138,69 @@
         "label": "Titles",
         "value": 2
       }
+    ]
+  },
+  {
+    "id": "placeholder-shooting-1",
+    "name": "Placeholder Athlete 1",
+    "sport": "Shooting Para Sport",
+    "age": 25,
+    "country": "UAE",
+    "club": "Dubai Club for People of Determination",
+    "image": "/images/placeholder.jpg",
+    "metrics": {
+      "speed": 60,
+      "strength": 65,
+      "endurance": 70,
+      "technique": 85,
+      "consistency": 80
+    },
+    "stats": [
+      { "label": "Matches", "value": "0" },
+      { "label": "Win Rate", "value": "0%" },
+      { "label": "Titles", "value": 0 }
+    ]
+  },
+  {
+    "id": "placeholder-cycling-1",
+    "name": "Placeholder Athlete 2",
+    "sport": "Para Cycling",
+    "age": 28,
+    "country": "UAE",
+    "club": "Dubai Club for People of Determination",
+    "image": "/images/placeholder.jpg",
+    "metrics": {
+      "speed": 75,
+      "strength": 70,
+      "endurance": 85,
+      "technique": 75,
+      "consistency": 70
+    },
+    "stats": [
+      { "label": "Races", "value": "0" },
+      { "label": "Win Rate", "value": "0%" },
+      { "label": "Titles", "value": 0 }
+    ]
+  },
+  {
+    "id": "placeholder-boccia-1",
+    "name": "Placeholder Athlete 3",
+    "sport": "Boccia",
+    "age": 30,
+    "country": "UAE",
+    "club": "Dubai Club for People of Determination",
+    "image": "/images/placeholder.jpg",
+    "metrics": {
+      "speed": 50,
+      "strength": 60,
+      "endurance": 65,
+      "technique": 90,
+      "consistency": 85
+    },
+    "stats": [
+      { "label": "Games", "value": "0" },
+      { "label": "Win Rate", "value": "0%" },
+      { "label": "Titles", "value": 0 }
     ]
   }
 ]

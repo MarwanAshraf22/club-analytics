@@ -31,8 +31,8 @@ declare namespace __next_route_internal_types__ {
   type StaticRoutes = 
     | `/`
     | `/analytics`
-    | `/athletes`
     | `/compare`
+    | `/athletes`
   type DynamicRoutes<T extends string = string> = 
     | `/athletes/${SafeSlug<T>}`
 

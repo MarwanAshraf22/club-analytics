@@ -16,11 +16,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/athletes/page.js"
     ],
-    "/athletes/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/athletes/[id]/page.js"
-    ],
     "/compare/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
