@@ -20,7 +20,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 backdrop-blur bg-[var(--bg)]/80">
       <div className="container h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo.png" alt="LA 2028 logo" width={48} height={48} className="rounded-md bg-white/5 p-0.5" />
+          <Image src="/logo.png" alt="LA 2028 logo" width={64} height={64} className="rounded-md bg-white/5 p-1" />
           <span className="font-semibold text-lg">LA 2028</span>
         </Link>
 
